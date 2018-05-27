@@ -1,129 +1,142 @@
-<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1527409090014" stop="1527409090039">
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1527410483709" stop="1527410483741">
   <name>test_001</name>
   <labels/>
   <test-cases>
-    <test-case start="1527409090014" status="passed" stop="1527409090016">
+    <test-case start="1527410483709" status="passed" stop="1527410483709">
       <name>Test_001.test01[1]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="8392-MainThread"/>
+        <label name="thread" value="7368-MainThread"/>
         <label name="host" value="DESKTOP-BCHJMCJ"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1527409090016" status="passed" stop="1527409090016">
+        <step start="1527410483709" status="passed" stop="1527410483709">
           <name>添加测试标题001</name>
           <title>添加测试标题001</title>
-          <attachments/>
+          <attachments>
+            <attachment source="df605bfe-ffd3-4ed7-90c6-96e4a2f7f120-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
           <steps/>
         </step>
       </steps>
     </test-case>
-    <test-case start="1527409090017" status="failed" stop="1527409090039">
+    <test-case start="1527410483709" status="failed" stop="1527410483741">
       <name>Test_001.test01[2]</name>
       <failure>
         <message>AssertionError: assert 2 != 2</message>
-        <stack-trace>self = &lt;test_001.Test_001 object at 0x05A8D5F0&gt;, a = 2
+        <stack-trace>self = &lt;test_001.Test_001 object at 0x05E8D830&gt;, a = 2
 
     @allure.step(title='添加测试标题001')
     @pytest.mark.parametrize('a',[1,2,3])
     def test01(self,a):
+        allure.attach('描述','我是01的描述信息')
 &gt;       assert a !=2
 E       assert 2 != 2
 
-scripts\test_001.py:9: AssertionError</stack-trace>
+scripts\test_001.py:10: AssertionError</stack-trace>
       </failure>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="8392-MainThread"/>
+        <label name="thread" value="7368-MainThread"/>
         <label name="host" value="DESKTOP-BCHJMCJ"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1527409090018" status="failed" stop="1527409090018">
+        <step start="1527410483709" status="failed" stop="1527410483709">
           <name>添加测试标题001</name>
           <title>添加测试标题001</title>
-          <attachments/>
+          <attachments>
+            <attachment source="45148b8a-308c-4d47-bc91-74d67c9ebfde-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
           <steps/>
         </step>
       </steps>
     </test-case>
-    <test-case start="1527409090039" status="passed" stop="1527409090039">
+    <test-case start="1527410483741" status="passed" stop="1527410483741">
       <name>Test_001.test01[3]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="8392-MainThread"/>
+        <label name="thread" value="7368-MainThread"/>
         <label name="host" value="DESKTOP-BCHJMCJ"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1527409090039" status="passed" stop="1527409090039">
+        <step start="1527410483741" status="passed" stop="1527410483741">
           <name>添加测试标题001</name>
           <title>添加测试标题001</title>
-          <attachments/>
+          <attachments>
+            <attachment source="016eb7a0-aa80-4e53-9b7b-2e51dc74f8ae-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
           <steps/>
         </step>
       </steps>
     </test-case>
-    <test-case start="1527409090039" status="passed" stop="1527409090039">
+    <test-case start="1527410483741" status="passed" stop="1527410483741">
       <name>Test_001.test02[4]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="8392-MainThread"/>
+        <label name="thread" value="7368-MainThread"/>
         <label name="host" value="DESKTOP-BCHJMCJ"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1527409090039" status="passed" stop="1527409090039">
+        <step start="1527410483741" status="passed" stop="1527410483741">
           <name>添加测试标题002</name>
           <title>添加测试标题002</title>
-          <attachments/>
+          <attachments>
+            <attachment source="577e90cb-5426-47d5-b8f7-7b73da70b4e2-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
           <steps/>
         </step>
       </steps>
     </test-case>
-    <test-case start="1527409090039" status="passed" stop="1527409090039">
+    <test-case start="1527410483741" status="passed" stop="1527410483741">
       <name>Test_001.test02[5]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="8392-MainThread"/>
+        <label name="thread" value="7368-MainThread"/>
         <label name="host" value="DESKTOP-BCHJMCJ"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1527409090039" status="passed" stop="1527409090039">
+        <step start="1527410483741" status="passed" stop="1527410483741">
           <name>添加测试标题002</name>
           <title>添加测试标题002</title>
-          <attachments/>
+          <attachments>
+            <attachment source="a9702a0e-84fb-4d5b-90db-983184cda26e-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
           <steps/>
         </step>
       </steps>
     </test-case>
-    <test-case start="1527409090039" status="passed" stop="1527409090039">
+    <test-case start="1527410483741" status="passed" stop="1527410483741">
       <name>Test_001.test02[6]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="8392-MainThread"/>
+        <label name="thread" value="7368-MainThread"/>
         <label name="host" value="DESKTOP-BCHJMCJ"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1527409090039" status="passed" stop="1527409090039">
+        <step start="1527410483741" status="passed" stop="1527410483741">
           <name>添加测试标题002</name>
           <title>添加测试标题002</title>
-          <attachments/>
+          <attachments>
+            <attachment source="f8f4b887-7462-4d0a-926e-a0d9d08b4199-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
           <steps/>
         </step>
       </steps>
