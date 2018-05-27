@@ -1,0 +1,132 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1527409090014" stop="1527409090039">
+  <name>test_001</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1527409090014" status="passed" stop="1527409090016">
+      <name>Test_001.test01[1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8392-MainThread"/>
+        <label name="host" value="DESKTOP-BCHJMCJ"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527409090016" status="passed" stop="1527409090016">
+          <name>添加测试标题001</name>
+          <title>添加测试标题001</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527409090017" status="failed" stop="1527409090039">
+      <name>Test_001.test01[2]</name>
+      <failure>
+        <message>AssertionError: assert 2 != 2</message>
+        <stack-trace>self = &lt;test_001.Test_001 object at 0x05A8D5F0&gt;, a = 2
+
+    @allure.step(title='添加测试标题001')
+    @pytest.mark.parametrize('a',[1,2,3])
+    def test01(self,a):
+&gt;       assert a !=2
+E       assert 2 != 2
+
+scripts\test_001.py:9: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8392-MainThread"/>
+        <label name="host" value="DESKTOP-BCHJMCJ"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527409090018" status="failed" stop="1527409090018">
+          <name>添加测试标题001</name>
+          <title>添加测试标题001</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527409090039" status="passed" stop="1527409090039">
+      <name>Test_001.test01[3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8392-MainThread"/>
+        <label name="host" value="DESKTOP-BCHJMCJ"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527409090039" status="passed" stop="1527409090039">
+          <name>添加测试标题001</name>
+          <title>添加测试标题001</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527409090039" status="passed" stop="1527409090039">
+      <name>Test_001.test02[4]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8392-MainThread"/>
+        <label name="host" value="DESKTOP-BCHJMCJ"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527409090039" status="passed" stop="1527409090039">
+          <name>添加测试标题002</name>
+          <title>添加测试标题002</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527409090039" status="passed" stop="1527409090039">
+      <name>Test_001.test02[5]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8392-MainThread"/>
+        <label name="host" value="DESKTOP-BCHJMCJ"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527409090039" status="passed" stop="1527409090039">
+          <name>添加测试标题002</name>
+          <title>添加测试标题002</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527409090039" status="passed" stop="1527409090039">
+      <name>Test_001.test02[6]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8392-MainThread"/>
+        <label name="host" value="DESKTOP-BCHJMCJ"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527409090039" status="passed" stop="1527409090039">
+          <name>添加测试标题002</name>
+          <title>添加测试标题002</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
