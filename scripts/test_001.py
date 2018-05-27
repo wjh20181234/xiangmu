@@ -2,7 +2,7 @@ import allure
 import pytest
 
 class Test_001():
-
+    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
     @allure.step(title='添加测试标题001')
     @pytest.mark.parametrize('a',[1,2,3])
     def test01(self,a):
